@@ -11,9 +11,8 @@
 
     @include("site.partials.nav")
 
-    <div class="container mx-auto py-16">
+    
         @yield('content')
-    </div>
 </body>
 
 </html>
